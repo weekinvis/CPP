@@ -2,8 +2,8 @@
 #ifndef bdop_trataArq_h__
 #define bdop_trataArq_h__
 
-#define ENTRADA "arqvs\\in.txt"
-#define SAIDA   "arqvs\\out.txt"
+#define ENTRADA "E:\\CPP\\netstudent\\arqvs\\in.txt"
+#define SAIDA   "E:\\CPP\\netstudent\\arqvs\\out.txt"
 
 #include <iostream>
 #include <iomanip>
