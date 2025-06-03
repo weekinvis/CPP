@@ -1,2 +1,0 @@
-windres icon.rc -O coff -o icon.res
-g++ *.cpp icon.res -o netStudent.exe
