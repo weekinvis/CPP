@@ -2,18 +2,6 @@
 #ifndef bdop_trataArq_h__
 #define bdop_trataArq_h__
 
-// #ifdef _WIN32
-
-// #define ENTRADA "E:\\CPP\\netstudent\\arqvs\\in.txt"
-// #define SAIDA   "E:\\CPP\\netstudent\\arqvs\\out.txt"
-
-// #else
-
-// #define ENTRADA "/home/a2024952083/Documentos/CPP-main/netstudent/arqvs/in.txt"
-// #define SAIDA   "/home/a2024952083/Documentos/CPP-main/netstudent/arqvs/out.txt"
-
-// #endif
-
 #include <iostream>
 #include <iomanip>
 #include <vector>
