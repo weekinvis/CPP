@@ -23,13 +23,38 @@ void obtemComando(string& comando) {
     }
 }
 
+void cmdCls() {
+    system("cls || clear");
+    return;
+}
+
+void cmdExit() {
+    return;
+}
+
+void cmdLer() {
+
+}
+
+map<string, function<void()>> comandosSemArg = {
+        {"cls", function<void()>(cmdCls)},
+        {"exit", function<void()>(cmdExit)},
+        {"sair", function<void()>(cmdExit)}
+};
+
+map<string, function<void(string&)>> comandosComArg = {
+};
+
 bool processaComando(string& comando, vector<materia>& materias) {
 
-    static const map<string, function<void()>> comandosSemArg;
-
-    if(comando == "sair" || comando == "exit") {
-        comando = "sair";
+    auto it = comandosSemArg.find(comando);
+    
+    if(it != comandosSemArg.end()) {
+        it->second();
         return true;
+    } else {
+        cout << "Comando desconhecido!" << endl;
+        return false;
     }
 
     if(comando == "criarin") {
@@ -43,11 +68,6 @@ bool processaComando(string& comando, vector<materia>& materias) {
         if(materias.empty()) {
             return false;
         }
-        return true;
-    }
-    
-    if(comando == "cls") {
-        system("clear || cls");
         return true;
     }
 
