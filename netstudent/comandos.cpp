@@ -33,6 +33,7 @@ void cmdHelp() {
          << "'media [nf|falta]' -> Exibe médias gerais.\n"
          << "'mostrar' ou 'ls' -> Imprime todos os dados.\n"
          << "'criarin' -> Cria ou limpa o arquivo de entrada.\n"
+         << "'find [trecho nome materia]' -> Retorna o primeiro positivo.\n"
          << "'cls' -> Limpa a tela do terminal.\n\n";
 }
 
