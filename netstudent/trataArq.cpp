@@ -1,8 +1,6 @@
 #include "trataArq.hpp"
 #include <string>
 #include <fstream>
-#include <vector>
-#include <iostream>
 #include <algorithm>
 #include <sstream>
 
