@@ -1,5 +1,3 @@
-#include <algorithm>
-#include <vector>
 #include "trataArq.hpp"
 #include "comparacoes.hpp"
 #include "comandos.hpp"
