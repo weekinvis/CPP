@@ -1,10 +1,7 @@
 #include <functional>
 #include <algorithm>
-#include <iostream>
 #include <fstream>
-#include <iomanip>
 #include <string>
-#include <vector>
 #include <cctype>
 #include <map>
 #include "trataArq.hpp"
